@@ -48,7 +48,7 @@ var topics = ['memes', 'dank memes', 'jet fuel can\'t melt steel beams', 'pepe',
 
             var memeName = $(this).data('memename'); //Taking the data-memename of the button clicked and storing as variable memeName
 
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + memeName + "&api_key=dc6zaTOxFJmzC&limit=10"; //adding memeName to queryURL
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + memeName + "&api_key=dc6zaTOxFJmzC&limit=10"; //adding memeName to queryURL
 
             //AJAX call to the Giphy API to search memeName  with limit of 10 responses
 
