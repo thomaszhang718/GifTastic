@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memetastic</title>
+
+    <!-- Importing css reset, bootstrap, and styles -->
+
+    <style type ="text/css">
+        @import url("assets/css/reset.css");
+        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+        @import url("assets/css/style.css");
+    </style>
+</head>
+
+<body>
+
+    <!-- Container Div -->
+    <div id="container">
+
+        <!-- Div for the buttons -->
+        <div id="memeButtonsDiv">
+        </div>
+
+        <!-- Form to add new buttons -->
+        <form id="meme-form">
+            <label for="meme-input">Add a meme</label>
+            <input type="text" id="meme-input"><br>
+            <input class="btn btn-info" id="addMeme" type="submit" value="Submit">
+        </form>
+
+        <!-- Div for where the GIFs appear -->
+        <div id="memesAppearDiv">
+        </div>
+
+    </div> 
+
+
+    <!-- Adding JQuery and the javascript file -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
+
+
+

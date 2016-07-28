@@ -1,0 +1,42 @@
+/*Memetastic Gifs CSS Sheet*/
+
+p {
+	font-size: 20px;
+}
+
+#container {
+	padding: 10px;
+}
+
+.memeButtonClass {
+	margin: 5px;
+	color: white;
+	font-size: 15px;
+}
+
+#meme-form {
+	margin: 20px 20px 5px 5px;
+	float: right;
+}
+
+.memeDivClass {
+	display: inline-block;
+	margin: 10px;
+}
+
+label {
+	display: block;
+}
+
+#meme-input {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+#addMeme {
+    padding: 6px 12px;
+}
+
+img {
+	height: 250px;
+}
